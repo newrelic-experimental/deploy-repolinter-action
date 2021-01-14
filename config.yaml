@@ -1,0 +1,7 @@
+githubToken: <GH personal access token>
+repos:
+  - org: newrelic
+    regex: nr1-*
+  - org: newrelic-experimental
+    regex: nr1-*
+# repoSearch: org:newrelic org:newrelic-experimental  language:JavaScript nr1-
