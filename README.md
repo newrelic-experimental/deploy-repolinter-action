@@ -1,6 +1,6 @@
 [![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
 
-# [Name of Project] [build badges go here when available]
+# Deploy Repo Linter Action
 
 This repo is a deployment tool for GitHub Actions. The instructions refer to the `nr1-lib-depracations.yml` workflow file, but it's easily adaptable to other scenarios.
 
