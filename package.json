@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "code for deploying a repolinter github action",
   "scripts": {
-    "apply": "repo apply --branch \"nr1_lib_dep_action\" --message \"ci: Add NR1 Library Deprecation Checks Workflow\" --comment \"$(< ./pr-body.md)\" \"mkdir -p .github/workflows && cp $INIT_CWD/nr1_lib_deprecations.yml .github/workflows/\""
+    "apply": "repo apply --silent --branch \"nr1_lib_dep_action\" --message \"ci: Add NR1 Library Deprecation Checks Workflow\" --comment \"$(< ./pr-body.md)\" \"mkdir -p .github/workflows && cp $INIT_CWD/nr1_lib_deprecations.yml .github/workflows/\"",
+    "prompt": "repo apply --branch \"nr1_lib_dep_action\" --message \"ci: Add NR1 Library Deprecation Checks Workflow\" --comment \"$(< ./pr-body.md)\" \"mkdir -p .github/workflows && cp $INIT_CWD/nr1_lib_deprecations.yml .github/workflows/\""
   },
   "repository": {
     "type": "git",
